@@ -75,7 +75,7 @@ var startDrag = function(bar, box,callback){
 
 };
 window.onload = function(){
-	var axis = {};
+
 	var wrap = document.getElementById('wrap');
 	var box = document.getElementById('box');
 
