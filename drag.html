@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>drag</title>
+	<style>
+		.wrap{
+			position: relative;
+			width:850px;
+			height:500px;
+			border:5px solid #ddd;
+		}
+		.box{
+			position:absolute;
+			width:200px;
+			height:100px;
+			background-color: #FFFF99;
+			border:5px solid #ddd;
+			box-sizing:border-box;
+			-webkit-box-sizing:border-box;
+		}
+		.vitual{
+			position: absolute;
+			box-sizing:border-box;
+			-webkit-box-sizing:border-box;
+			border:5px dotted #FEDF80;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap"id="wrap">
+		<div class="box"id="box"dragable="true"></div>
+	</div>
+	<script src="zxx.drag.1.0.js"></script>
+	<script>
+		// var wrap = document.getElementById('wrap');
+ 	// 	var box = document.getElementById('box');
+
+
+ 	// 	var param = {
+		// 	top:0,
+		// 	left:0,
+		// 	currentX:0,
+		// 	currentY:0
+		// }
+		// setStyle();
+		// function setStyle(o,key){
+		// 	o.setAttribute(key,param.top);
+		// };
+
+		// //mousedown移动元素
+		// //检测移过元素由初始位置到终止的偏移量将元素当前位置设置为偏移位置
+		// //mouseup元素不动
+		// box.onmousedown = function(event) {
+		// 	var disX = box.getAttribute('left');
+		// 	var disY = box.getAttribute('top');
+		// }
+	</script>
+</body>
+</html>
